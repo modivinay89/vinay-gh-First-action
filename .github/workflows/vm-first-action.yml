@@ -1,5 +1,5 @@
-name:vm_first_workflow
-on:workflow_dispatch
+name: vm_first_workflow
+on: workflow_dispatch
 jobs:
   vm_first_job:
     runs-on: windows-2022
