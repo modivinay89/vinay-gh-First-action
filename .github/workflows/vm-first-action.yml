@@ -2,7 +2,7 @@ name:vm_first_workflow
 on:workflow_dispatch
 jobs:
   vm_first_job:
-    runs-on:windows-2022
+    runs-on: windows-2022
     steps:
       - name: print welcome
         run: echo "Hello World Welcome"
